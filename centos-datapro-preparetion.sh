@@ -1,3 +1,7 @@
+#exec command
+#curl https://raw.githubusercontent.com/anydasa/useful-linux-commands/master/centos-datapro-preparetion.sh -o script.sh && chmod +x ./script.sh && sudo ./script.sh
+
+
 yum -y install git
 yum check-update
 curl -fsSL https://get.docker.com/ | sh
